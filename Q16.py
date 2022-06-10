@@ -1,3 +1,5 @@
+#this code will not run until you have the csv file and the pandas module installed in your local machine
+
 import pandas as pd
   
 # Reading the CSV file
