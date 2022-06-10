@@ -1,4 +1,4 @@
-from msvcrt import LK_LOCK
+
 
 
 print("Input eight integers:")
