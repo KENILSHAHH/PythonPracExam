@@ -1,3 +1,7 @@
 L = [(), (), ('',), ('a', 'b'), ('a', 'b', 'c'), ('d')]
-L = [t for t in L if t]
-print(L)
+
+k=[]
+for i in L:
+    if i!=():
+        k.append(i)
+print(k)

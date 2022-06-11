@@ -1,9 +1,6 @@
-import collections
-str1 = 'thequickbrownfoxjumpsoverthelazydog'
-d = collections.defaultdict(int)
-for c in str1:
-    d[c] += 1
-
-for c in sorted(d, key=d.get, reverse=True):
-  if d[c] > 1:
-      print('%s %d' % (c, d[c]))
+string='thequickbrownfoxjumpsoverthelazydog'
+dictionary={}
+for i in string:
+    if string.count(i)>1 :
+        dictionary[i]=string.count(i)
+print(dictionary)

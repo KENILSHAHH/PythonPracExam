@@ -5,7 +5,9 @@ except:
     print('Cannot open the file ',fname ,'please try again')
     quit()
 
-for line in fh :
+for i,line in enumerate(fh) :
+    if i>=10:
+        break
     line = line.lower()
     line = line.rstrip()
     print(line)

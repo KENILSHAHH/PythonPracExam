@@ -1,5 +1,5 @@
 def test(dict, val):
-  return list(key for key, value in dict.items() if value == val)
+  return (key for key, value in dict.items() if value == val)
 
 students = {
   'Theodore': 19,

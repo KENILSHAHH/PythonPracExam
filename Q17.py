@@ -1,11 +1,11 @@
 fname = input("Enter file name: ")
 try :
-    fh = open(fname)
+    fk = open(fname)
 except:
     print('Cannot open the file ',fname ,'please try again')
     quit()
 
-for line in fh :
+for line in fk :
     line = line.upper()
     line = line.rstrip()
     print(line)
